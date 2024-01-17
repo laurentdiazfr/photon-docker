@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk:11-jre
 
 # Install pbzip2 for parallel extraction
 RUN apt-get update \
